@@ -1,6 +1,7 @@
 body {
     background-color: white;
     margin-top: 50px;
+    height: 1500px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -8,6 +9,7 @@ body {
 nav {
     position: fixed;
     top: 0;
+    left: 0;
     overflow: hidden;
     width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -18,7 +20,7 @@ nav {
 #nav_bar nav a {
     float: left;
     display: block;
-    width: 30%;
+    width: 31%;
     padding: 14px 16px;
     text-align: center;
     background-color: lightgray;
@@ -28,4 +30,24 @@ nav {
     background-color: black;
     color: white;
 }
+
+#social {
+    position: fixed;
+    top: 80px;
+    right: 35px;
+}
+
+#social a {
+    display: block;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    padding: 5px 3px;
+    margin-top: 3px;
+
+}
+
+#social a:hover {
+    background-color: grey;
+    color: black;
 }
