@@ -41,7 +41,8 @@ nav {
 #social {
     position: fixed;
     top: 80px;
-    right: 35px;
+    right: -70px;
+    padding: 40px;
 }
 
 #social a {
@@ -53,6 +54,12 @@ nav {
     margin-top: 4px;
     font-size: 25px;
 
+}
+
+#social:hover {
+    position: fixed;
+    top: 80px;
+    right: 0px;
 }
 
 #social a:hover {
