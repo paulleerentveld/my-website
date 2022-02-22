@@ -24,19 +24,18 @@
                 <nav>
                     <a href="#About">About</a>
                     <a href="#photo_gallery">Photo Gallery</a>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </nav>
             </div>
         </header>
         <section id="About">
             <h1>About</h1>
-            <script src="script.js"></script>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
         </section>
         <br><br>
         <section id="photo_gallery">
             <h1>Photo Gallery</h1>
-            <div id="bikes_had">
+            <div id="bikes_had" class="gallery">
                 <h4>Bikes I have owned</h4>
                 <p>These photos scale to enlarge on hover</p>
                 <figure>
@@ -52,7 +51,7 @@
                     <figcaption>BMW S1000RR 2013</figcaption>
                 </figure>
             </div>
-            <div id="bikes_need">
+            <div id="bikes_need" class="gallery">
                 <h4>Bikes I need to own</h4>
                 <figure>
                     <img src="https://dn3bmh8yk8vvw.cloudfront.net/_Yvh2af4EFkbEgWC6GyZhmUd7zA=/production-1024-H6xrQeDYVSRS-TriumphAnnouncesNew765DaytonaMoto2LimitedEdition.png"alt="765daytona" title="765 Daytona Moto2">
@@ -74,19 +73,16 @@
             <div id="contact_form">
                 <form action="#">
                     <label for="first_name">First Name</label>
-                    <input type="text" id="first_name" name="first_name" placeholder="Your First Name...">
+                    <input type="text" id="first_name" name="first_name" placeholder="Your First Name..." required>
                     <label for="last_name">Last Name</label>
-                    <input type="text" id="last_name" name="last_name" placeholder="Your Last Name...">
+                    <input type="text" id="last_name" name="last_name" placeholder="Your Last Name..." required>
                     <label for="email">Email Address</label>
-                    <input type="text" id="email" name="email" placeholder="Your Email Address...">
+                    <input type="text" id="email" name="email" placeholder="Your Email Address..." required>
                     <label for="message">Your Message</label>
-                    <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
+                    <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
                     <input type="submit" value="submit">
-                
                 </form>
-
             </div>
-
         </section>
     </body>
 </html>
