@@ -1,12 +1,10 @@
 body {
     background-color: white;
-    margin-top: 50px;
     width: 80%;
-    margin: 50px auto;
+    margin: 100px auto;
     height: 1500px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 nav {
     position: fixed;
@@ -15,6 +13,7 @@ nav {
     overflow: hidden;
     width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
 
 }
 
@@ -22,15 +21,18 @@ nav {
 #nav_bar nav a {
     float: left;
     display: block;
-    width: 31%;
-    padding: 14px 16px;
+    padding: 14px 20px;
+
     text-align: center;
-    background-color: lightgray;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    
 }
 
 #nav_bar nav a:hover {
-    background-color: black;
-    color: white;
+    background-color: grey;
+    color: black;
 }
 
 #social {
@@ -43,13 +45,48 @@ nav {
     display: block;
     background-color: black;
     color: white;
-    border-radius: 2px;
-    padding: 5px 3px;
-    margin-top: 3px;
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin-top: 4px;
+    font-size: 25px;
 
 }
 
 #social a:hover {
     background-color: grey;
     color: black;
+}
+
+
+#photo_gallery h4 {
+        text-align: center;
+}
+
+#photo_gallery figure {
+    display: inline-block;
+    width: 32%;
+    height: auto;
+    vertical-align: top;
+    border-radius: 5px;
+    margin: 0;
+}
+
+
+
+#photo_gallery #bikes_had img:hover {
+    transform: scale(2);
+}
+
+
+
+#photo_gallery figure img {
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+    padding: 0;
+
+}
+
+#photo_gallery figcaption {
+    text-align: center;
 }
