@@ -73,7 +73,7 @@ nav {
 
 
 
-#photo_gallery #bikes_had img:hover {
+#photo_gallery figure img:hover {
     transform: scale(2);
 }
 
