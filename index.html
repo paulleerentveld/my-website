@@ -1,8 +1,7 @@
 <!-- ToDo list
-* Menu bar at top that hides and appears with hover
-* photo gallery columns with hover over functions
-* Pages - About me, Photo Gallery,
-* Add social bar links
+* make social menu hide to the right
+* poput images to new window
+* contact form
 -->
 
 
@@ -12,6 +11,7 @@
         <link rel="stylesheet" href="./css/style.css">
         <script src="https://kit.fontawesome.com/3f0feeab81.js" crossorigin="anonymous"></script>
         <title>My Wesbite</title>
+        <link rel="icon" type="image/x-icon" href="./images/spartan-favicon.jpg">
     </head>
     <body>
         <div id="social">
@@ -22,8 +22,8 @@
         <header>
             <div id="nav_bar">
                 <nav>
-                    <a href="#">About</a>
-                    <a href="#">Photo Gallery</a>
+                    <a href="#About">About</a>
+                    <a href="#photo_gallery">Photo Gallery</a>
                     <a href="#">Contact</a>
                 </nav>
             </div>
@@ -33,20 +33,40 @@
             <script src="script.js"></script>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
         </section>
+        <br><br>
         <section id="photo_gallery">
+            <h1>Photo Gallery</h1>
             <div id="bikes_had">
-                <h2>Bikes I have owned</h2>
-                <img src="https://i.pinimg.com/originals/16/0a/cf/160acf0a796bf37fbf618d068d849725.jpg" alt="speedtriple" title="SpeedTriple 1050">
-                <img src="https://i.ytimg.com/vi/C9Sl9OtMtJw/maxresdefault.jpg" alt="675daytona" title="675 Daytona">
-                <img src="https://thumbs.dreamstime.com/b/sportbike-bmw-s-rr-smooth-background-shapes-front-side-view-modern-powerful-motorcycle-dark-grey-background-sportbike-153682820.jpg" alt="s1000rr" title="BMW S1000RR">
+                <h4>Bikes I have owned</h4>
+                <p>These photos scale to enlarge on hover</p>
+                <figure>
+                    <img src="https://i.pinimg.com/originals/16/0a/cf/160acf0a796bf37fbf618d068d849725.jpg" alt="speedtriple" title="SpeedTriple 1050">
+                    <figcaption>Triumph Speedtriple 1050</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://i.ytimg.com/vi/C9Sl9OtMtJw/maxresdefault.jpg" alt="675daytona" title="675 Daytona">
+                    <figcaption>Triumph Daytona 675 2012/2015 models</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://thumbs.dreamstime.com/b/sportbike-bmw-s-rr-smooth-background-shapes-front-side-view-modern-powerful-motorcycle-dark-grey-background-sportbike-153682820.jpg" alt="s1000rr" title="BMW S1000RR">
+                    <figcaption>BMW S1000RR 2013</figcaption>
+                </figure>
             </div>
             <div id="bikes_need">
-                <h2>Bikes I need to own</h2>
-                <img src="https://dn3bmh8yk8vvw.cloudfront.net/_Yvh2af4EFkbEgWC6GyZhmUd7zA=/production-1024-H6xrQeDYVSRS-TriumphAnnouncesNew765DaytonaMoto2LimitedEdition.png" alt="765daytona" title="765 Daytona Moto2">
-                <img src="https://www.bikebound.com/wp-content/uploads/2020/06/Motorcycle-6-Underground-2-800x595.jpg" alt="6underground_speedtriple" title="6 Underground Speedtriple">
-                <img src="https://www.motorcycle.com/blog/wp-content/uploads/2017/04/041917-bmw-hp4-race-carbon-fiber-P90254414_highRes-633x422.jpg" alt="BMW-Carbon-h4" title="BMW Carbon H4">
+                <h4>Bikes I need to own</h4>
+                <figure>
+                    <img src="https://dn3bmh8yk8vvw.cloudfront.net/_Yvh2af4EFkbEgWC6GyZhmUd7zA=/production-1024-H6xrQeDYVSRS-TriumphAnnouncesNew765DaytonaMoto2LimitedEdition.png"alt="765daytona" title="765 Daytona Moto2">
+                    <figcaption>Triumph Daytona 765 Moto2 test bike</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://www.bikebound.com/wp-content/uploads/2020/06/Motorcycle-6-Underground-2-800x595.jpg" alt="6underground_speedtriple" title="6 Underground Speedtriple">
+                    <figcaption>6 Underground Triumph Speedtriple custom</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://www.motorcycle.com/blog/wp-content/uploads/2017/04/041917-bmw-hp4-race-carbon-fiber-P90254414_highRes-633x422.jpg" alt="BMW-Carbon-h4" title="BMW Carbon H4">
+                    <figcaption>BMW S1000RR H4 Carbonfibre</figcaption>
+                </figure>
             </div>
-
         </section>
     </body>
 </html>
