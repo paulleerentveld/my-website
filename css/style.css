@@ -95,7 +95,7 @@ nav {
 }
 
 #photo_gallery figure img:hover {
-    transform: scale(2);
+    transform: scale(1.5);
 }
 
 
