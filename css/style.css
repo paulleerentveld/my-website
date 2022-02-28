@@ -111,6 +111,8 @@ nav {
 
 #photo_gallery figcaption {
     text-align: center;
+    text-decoration: underline;
+    font-size: small;
 }
 
 #contact {
